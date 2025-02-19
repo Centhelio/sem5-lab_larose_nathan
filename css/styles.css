@@ -78,8 +78,10 @@ header .wrapper {
     font: 700 1.4rem 'PT Sans', sans-serif;
     padding: 5px 10px;
     
+    /* ne peut pas etre simplifier*/
     text-transform: uppercase;
     text-decoration: none;
+    /* ne peut pas etre simplifier*/
 
     border: solid #fff 2px;
 }
@@ -184,17 +186,26 @@ footer .wrapper {
     padding: 0;
 
     list-style: none;
-    text-decoration: none;
 }
 
 /* ===== Numéro 6c ===== */
 footer .wrapper .menu-social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+    text-decoration: none;
+
+    color: #fff;
+    background-color: #F2545B;
+    border: 1px solid #F2545B;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
 }
 
 /* ===== Numéro 6d ===== */
-/*
-.menu-social a:hover {
-    background: gray;
+footer .wrapper .menu-social a:hover {
+    background-color: gray;
+    border: 1px solid gray;
 }
-*/
