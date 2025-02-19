@@ -59,7 +59,7 @@ header .wrapper {
     gap: 20px;
     font: 400 4rem "Nunito", serif-sans;
     text-decoration: none;
-    color: #444444;
+    color: #444;
 }
 
 /* ===== Numéro 3c ===== */
@@ -74,7 +74,7 @@ header .wrapper {
 
 /* ===== Numéro 3d ===== */
 .menu a {
-    color: #000;
+    color: black;
     font: 700 1.4rem 'PT Sans', sans-serif;
     padding: 5px 10px;
     
@@ -83,7 +83,7 @@ header .wrapper {
     text-decoration: none;
     /* ne peut pas etre simplifier*/
 
-    border: solid #fff 2px;
+    border: solid white 2px;
 }
 
 /* ===== Numéro 3e ===== */
@@ -94,25 +94,21 @@ header .wrapper {
 
 /* ===== Numéro 4a ===== */
 .hero {
-    background-image: url('../images/hero.jpg');
-    background-position: center right;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    min-height: 650px;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
+    background: url('../images/hero.jpg') center right / cover no-repeat;
 }
 
 /* ===== Numéro 4b ===== */
 .hero .wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    min-height: 650px;
 }
 
 /* ===== Numéro 4c ===== */
 .hero .contenu {
     max-width: 50%;
-    color: #fff;
+    color: white;
 }
 
 /* ===== Numéro 4d ===== */
@@ -168,7 +164,7 @@ header .wrapper {
 
 /* ===== Numéro 6a ===== */
 footer {
-    background-color: #000;
+    background-color: black;
 }
 
 footer .wrapper {
@@ -196,7 +192,7 @@ footer .wrapper .menu-social a {
 
     text-decoration: none;
 
-    color: #fff;
+    color: white;
     background-color: #F2545B;
     border: 1px solid #F2545B;
     border-radius: 50%;
